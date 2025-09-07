@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Styles.css">
+    <link rel="stylesheet" href="./script.js">
+</head>
+<body>
+
+    <!-- Header con navegación -->
+    <header>
+        <nav>
+            <div class="logo">Mi Portafolio</div>
+            <div class="menu" id="menu">
+                <a href="#acerca">Acerca de</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="hamburguesa" id="hamburguesa">☰</div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>¡Hola! Soy Tahiz Tumbaco</h1>
+        <p>Soy una estudiante de Jovenes Creativos de la ciudad de Guayaquil</p>
+        <a href="#contacto" class="btn">Contáctame</a>
+    </section>
+
+    <!-- Acerca de mí -->
+    <section id="acerca">
+        <h2>Acerca de Mí</h2>
+        <p>Soy una persona apasionada por el aprendizaje, en este momento estoy explorando el mundo del desarrollo web y adquiriendo habilidades en HTML, CSS y JavaScript. Sin embargo, mi principal objetivo es convertirme en bioquímica, un campo que me motiva por su impacto en la salud y en la investigación científica, además considero que tener conocimiento sobre desarrollo web me ayuda a formar mi camino profesional.</p>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+        <h2>Mis Habilidades</h2>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="barra"><div class="progreso" style="width: 80%">80%</div></div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="barra"><div class="progreso" style="width: 70%">70%</div></div>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="barra"><div class="progreso" style="width: 60%">60%</div></div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div class="proyectos">
+            <div class="card">Proyecto 1</div>
+            <div class="card">Proyecto 2</div>
+            <div class="card">Proyecto 3</div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="formulario">
+            <input type="text" id="nombre" placeholder="Tu nombre">
+            <input type="email" id="email" placeholder="Tu correo">
+            <textarea id="mensaje" placeholder="Tu mensaje"></textarea>
+            <button type="submit">Enviar</button>
+            <p id="error"></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 - Mi Portafolio Básico</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
